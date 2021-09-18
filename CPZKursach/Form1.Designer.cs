@@ -187,6 +187,7 @@ namespace CPZKursach
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_Closed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
